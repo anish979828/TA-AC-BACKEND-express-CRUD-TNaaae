@@ -4,7 +4,6 @@ var app = express();
 // middlewares
 app.use(express.json());
 
-console.log(__dirname + "/views");
 
 // view engines
 app.set("view engine","ejs");
